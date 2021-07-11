@@ -1,0 +1,118 @@
+/*========================================
+
+
+  Universal Styling
+
+
+===========================================*/
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/*========================================
+
+
+  Nav Styling
+
+
+===========================================*/
+header {
+    height: 72px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 990;
+    text-align: center;
+}
+header .nav-logo {
+    float: left;
+}
+
+.navbar li {
+  font-family: 'Raleway', sans-serif;
+  display: inline-block;
+}
+
+.navbar {
+padding-bottom: 5px;
+padding-top: 5px;
+margin: 0;
+text-align: center;
+vertical-align: center;
+}
+
+.nav-logo {
+padding: 5px 15px;
+width: 75px;
+}
+
+#navcenter {
+text-align: center;
+font-size: 25px;
+margin: revert;
+color: #234058;
+font-family: 'Raleway', sans-serif;
+font-weight: bold;
+}
+
+/*========================================
+
+
+  Form Styling
+
+
+===========================================*/
+.contact-form {
+  background: #86a3a9;
+  padding: 20px;
+  border-radius: 4px;
+  color: #234058;
+  font-family: 'Raleway', sans-serif;
+}
+
+.label_input_wrap {
+  display: block;
+  font-weight: bold;
+}
+
+.submit input {
+  background: #f9bba5;
+  padding: 6px 30px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #234058;
+}
+
+.spacing {
+  margin-bottom: 5px;
+}
+
+input {
+padding: 5px 20px;
+border-radius: 4px;
+font-family: 'Oswald', sans-serif;
+text-align: left;
+font-size: 10px;
+}
+
+textarea {
+  font-family: 'Oswald', sans-serif;
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+
+h1 {
+font-family: 'Raleway', sans-serif;
+text-align: center;
+font-size: 30px;
+font-weight: bold;
+padding: 5px 0px;
+}
+
+h2 {
+font-family: 'Raleway', sans-serif;
+font-size: 27px;
+}
