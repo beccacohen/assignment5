@@ -27,6 +27,7 @@ header {
     z-index: 990;
     text-align: center;
 }
+
 header .nav-logo {
     float: left;
 }
@@ -37,25 +38,25 @@ header .nav-logo {
 }
 
 .navbar {
-padding-bottom: 5px;
-padding-top: 5px;
-margin: 0;
-text-align: center;
-vertical-align: center;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  margin: 0;
+  text-align: center;
+  vertical-align: center;
 }
 
 .nav-logo {
-padding: 5px 15px;
-width: 75px;
+  padding: 5px 15px;
+  width: 75px;
 }
 
 #navcenter {
-text-align: center;
-font-size: 25px;
-margin: revert;
-color: #234058;
-font-family: 'Raleway', sans-serif;
-font-weight: bold;
+  text-align: center;
+  font-size: 25px;
+  margin: revert;
+  color: #234058;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
 }
 
 /*========================================
@@ -115,4 +116,12 @@ padding: 5px 0px;
 h2 {
 font-family: 'Raleway', sans-serif;
 font-size: 27px;
+}
+
+.button:hover {
+  background-color: #fff;
+}
+
+.button:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6), inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
