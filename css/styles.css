@@ -125,3 +125,30 @@ font-size: 27px;
 .button:active {
   box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6), inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
+
+.ptext {
+  text-align: center;
+  font-size: 15px;
+  max-width: 500px;
+  margin: auto;
+}
+
+.exciting-text::after {
+  content: " <- EXCITING!";
+  color: green;
+}
+
+.boring-text::before {
+  content: "BORING ->";
+  color: red;
+}
+
+.effect::first-letter {
+  color: white;
+  background-color: black;
+  box-shadow: 3px 3px 0 red;
+  font-size: 30px;
+  padding: 4px 3px;
+  margin-right: 5px;
+  line-height: 45px;
+}

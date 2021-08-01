@@ -20,11 +20,11 @@
 
         <nav>
           <ul id="navcenter">
-              <li><a>Home</a></li>
-              <li><a>About</a></li>
-              <li><a>Resume</a></li>
-              <li><a>Portfolio</a></li>
-              <li><a>Contact Me</a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="index.html">About</a></li>
+              <li><a href="index.html">Resume</a></li>
+              <li><a href="index.html">Portfolio</a></li>
+              <li><a href="index.html">Contact Me</a></li>
             </ul>
           </nav>
         </div>
@@ -33,13 +33,18 @@
     <main>
       <div class="container">
         <form class="contact-form" id="test_form" name="test_form" method="post" action="form.php" onsubmit="return validateForm(this)">
-        <form  name="firstform" method="post"action="">
           <h1>Get intouch</h1>
           <h2>Email Me</h2>
 
+          <div class="ptext">
+            <p class="boring-text">Here is some plain old boring text.</p>
+            <p class="exciting-text">Here is some text that is exciting.</p>
+            <p class="effect">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
+          </div>
+
           <div class="first-name spacing">
             <label for="firstname" class="label_input_wrap">First Name</label>
-            <input type="text" name="firstname" id="firstname" placeholder="First Name" />
+            <input type="text" name="req_firstname" id="firstname" placeholder="First Name" />
           </div>
 
           <div class="last-name spacing">
@@ -49,7 +54,7 @@
 
           <div class="email spacing">
             <label for="email" class="label_input_wrap">Email</label>
-            <input type="email" name="email" id="email" placeholder="JSmith@example.com" />
+            <input type="email" name="req_email" id="email" placeholder="JSmith@example.com" />
           </div>
 
           <div class="telephone spacing">
@@ -63,7 +68,7 @@
           </div>
 
           <div class="submit spacing">
-            <input type="submit" value="Send" />
+            <input class="button" type="submit" value="Send" />
           </div>
 
         </form>
