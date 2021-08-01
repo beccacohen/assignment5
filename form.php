@@ -11,10 +11,10 @@ $form->processForm(
 	,
 	'Be Creative Development' // Put your site name / form name here
 	,
-	'rcohen2@ulf.edu' // Where will the form notification be sent?
+	'rcohen2@ufl.edu' // Where will the form notification be sent?
 	,
 	'noreply@becreativedevelopment.com' // This what the form FROM: address wil be, if the form submissions doesn't contain an email field
-	
+
 );
 
 

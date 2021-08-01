@@ -53,12 +53,14 @@ header .nav-logo {
 #navcenter {
   text-align: center;
   font-size: 25px;
-  margin: revert;
   color: #234058;
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
 }
 
+.logo {
+  width: 60px;
+}
 /*========================================
 
 
@@ -116,6 +118,12 @@ padding: 5px 0px;
 h2 {
 font-family: 'Raleway', sans-serif;
 font-size: 27px;
+}
+
+p{
+  text-align: center;
+  margin: auto;
+  font-size: 15px;
 }
 
 .button:hover {

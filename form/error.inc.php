@@ -43,20 +43,38 @@
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
   }
+
+  h1 {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 5px 0px;
+  }
+
+  p{
+    text-align: center;
+    margin: auto;
+    font-size: 15px;
+  }
 </style>
 
 <header>
-    <nav>
-      <ul>
-        <li><img src="images/logo.png" alt="Logo" width="100px"></li>
-        <li><a>Home</a></li>
-        <li><a>About</a></li>
-        <li><a>Resume</a></li>
-        <li><a>Portfolio</a></li>
-        <li><a>Contact Me</a></li>
-      </ul>
-    </nav>
-  </div>
+	<div class="navbar">
+		<div class="nav-logo">
+			<img src="images/logo.png" alt="Logo" width="60px">
+		</div>
+
+		<nav>
+			<ul id="navcenter">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="index.html">About</a></li>
+					<li><a href="index.html">Resume</a></li>
+					<li><a href="index.html">Portfolio</a></li>
+					<li><a href="index.html">Contact Me</a></li>
+				</ul>
+			</nav>
+		</div>
 </header>
 
 <div class="container">
